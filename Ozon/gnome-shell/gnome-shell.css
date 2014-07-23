@@ -512,18 +512,18 @@ StScrollBar StButton#hhandle:active {
 .hotplug-notification-item,
 .app-view-controls,
 #screenShieldNotifications {
-    border-radius: 3px;
+    border-radius: 2px;
 }
 
 .app-view-control:first-child:ltr,
 .app-view-control:last-child:rtl {
-    border-radius: 3px 0 0 3px;
+    border-radius: 2px 0 0 2px;
     border-right-width: 0;
 }
 
 .app-view-control:last-child:ltr,
 .app-view-control:first-child:rtl {
-    border-radius: 0 3px 3px 0;
+    border-radius: 0 2px 2px 0;
 }
 
 /* Entries */
@@ -1190,10 +1190,10 @@ StScrollBar StButton#hhandle:active {
 .grid-search-result .overview-icon {
     padding: 4px;
     border-top: none;
-    border-bottom: 3px solid transparent;
+    border-bottom: 2px solid transparent;
     border-left: none;
     border-right: none;
-    border-radius: 3px;
+    border-radius: 2px;
     text-align: center;
     transition-duration: 100ms;
 }
@@ -1242,7 +1242,7 @@ StScrollBar StButton#hhandle:active {
 .list-search-result:hover,
 .grid-search-result:hover .overview-icon {
     color: #eee;
-    border-radius: 3px;
+    border-radius: 2px;
     background-image: none;
     background-gradient-direction: none;
     background-color: #357ebd;
@@ -1253,7 +1253,7 @@ StScrollBar StButton#hhandle:active {
 }
 
 .app-display .app-well-app > .overview-icon {
-    border-radius: 3px;
+    border-radius: 2px;
 }
 
 .list-search-result:hover .list-search-result-description {
@@ -2959,3 +2959,86 @@ StScrollBar StButton#hhandle:active {
     -boxpointer-gap: 4px;
     -arrow-rise: 0;
 }
+
+/* dashtodock extension */
+
+#dashtodockBox:ltr {
+  padding-right:1px;
+}
+
+#dashtodockBox:rtl {
+  padding-left:1px;
+}
+
+/* shrink the dash by reducing padding and border radius */
+#dashtodockContainer #dash {
+  padding: 1px 0px;
+  border-radius: 0px 2px 2px 0px;
+}
+
+#dashtodockContainer #dash:rtl {
+  border-radius: 2px 0px 0px 2px;
+}
+
+#dashtodockContainer .dash-item-container > StButton {
+  transition-duration: 250;
+  background-size: contain;
+}
+
+#dashtodockContainer .dash-item-container > StButton {
+  padding: 1px 2px;
+}
+
+/* Dash height extended to the whole available vertical space */
+#dashtodockContainer.extended #dash {
+  background: rgba(0,0,0,1);
+  border:0;
+  border-radius: 0;
+}
+
+/* Running and focused application style */
+
+#dashtodockContainer .app-well-app.running > .overview-icon {
+  background-image: none;
+  border-image: none;
+}
+
+#dashtodockContainer .app-well-app.focused > .overview-icon {
+}
+
+#dashtodockContainer:ltr .running1 {
+  background-image: url("one.svg");
+}
+
+#dashtodockContainer:rtl .running1 {
+  background-image: url("one_rtl.svg");
+}
+
+#dashtodockContainer:ltr .running2 {
+  background-image: url("two.svg");
+}
+
+#dashtodockContainer:rtl .running2 {
+  background-image: url("two_rtl.svg");
+}
+
+#dashtodockContainer:ltr .running3 {
+  background-image: url("three.svg");
+}
+
+#dashtodockContainer:rtl .running3 {
+  background-image: url("three_rtl.svg");
+}
+
+#dashtodockContainer:ltr .running4 {
+  background-image: url("four.svg");
+}
+
+#dashtodockContainer:rtl .running4 {
+  background-image: url("four_rtl.svg");
+}
+
+#dashtodockContainer #dash {
+  background: #313736;
+}
+
