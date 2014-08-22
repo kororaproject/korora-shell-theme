@@ -13,7 +13,7 @@
    height="96"
    id="svg11252"
    version="1.1"
-   inkscape:version="0.48.4 r9939"
+   inkscape:version="0.48.5 r10040"
    sodipodi:docname="one.svg">
   <metadata
      id="metadata19">
@@ -47,21 +47,38 @@
      showborder="true"
      inkscape:showpageshadow="false"
      inkscape:zoom="4.109375"
-     inkscape:cx="45.014593"
-     inkscape:cy="50.824262"
+     inkscape:cx="60.102045"
+     inkscape:cy="50.33757"
      inkscape:window-x="0"
      inkscape:window-y="22"
      inkscape:window-maximized="1"
      inkscape:current-layer="svg11252"
      inkscape:snap-global="false" />
   <defs
-     id="defs11254" />
+     id="defs11254">
+    <linearGradient
+       id="linearGradient3764"
+       x1="1"
+       x2="47"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0,-1,1,0,-1.5e-6,47.999998)">
+      <stop
+         stop-color="#b5945b"
+         stop-opacity="1"
+         id="stop3202" />
+      <stop
+         offset="1"
+         stop-color="#bb9e69"
+         stop-opacity="1"
+         id="stop3204" />
+    </linearGradient>
+  </defs>
   <rect
-     style="fill:#357ebf;fill-opacity:0.94117647;stroke:none"
-     id="rect2988"
-     width="5"
-     height="84"
-     x="4"
-     y="4"
+     style="fill:#357ebf;fill-opacity:1;stroke:none"
+     id="rect2993"
+     width="6"
+     height="12"
+     x="0"
+     y="40"
      rx="0" />
 </svg>

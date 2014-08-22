@@ -13,7 +13,7 @@
    height="96"
    id="svg11252"
    version="1.1"
-   inkscape:version="0.48.4 r9939"
+   inkscape:version="0.48.5 r10040"
    sodipodi:docname="two.svg">
   <metadata
      id="metadata19">
@@ -47,8 +47,8 @@
      showborder="true"
      inkscape:showpageshadow="false"
      inkscape:zoom="4.109375"
-     inkscape:cx="14.10965"
-     inkscape:cy="50.33757"
+     inkscape:cx="-13.984465"
+     inkscape:cy="34.081488"
      inkscape:window-x="0"
      inkscape:window-y="22"
      inkscape:window-maximized="1"
@@ -56,12 +56,20 @@
      inkscape:snap-global="false" />
   <defs
      id="defs11254" />
-  <path
-     style="fill:#357ebf;fill-opacity:0.94117647;stroke:none"
-     d="M 4,4 4,44 9,44 9,4 4,4 z"
-     id="path2987" />
-  <path
-     style="fill:#357ebf;fill-opacity:0.94117647;stroke:none"
-     d="M 4,48 4,88 9,88 9,48 4,48 z"
-     id="rect2988" />
+  <rect
+     style="fill:#357ebf;fill-opacity:1;stroke:none"
+     id="rect2993"
+     width="6"
+     height="12"
+     x="0"
+     y="48"
+     rx="0" />
+  <rect
+     style="fill:#357ebf;fill-opacity:1;stroke:none"
+     id="rect2993-4"
+     width="6"
+     height="12"
+     x="0"
+     y="31.999998"
+     rx="0" />
 </svg>
